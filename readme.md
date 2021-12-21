@@ -7,10 +7,10 @@ sudo bash ./setup.sh
 
 ## 开启全局代理
 ```
-iptables.sh start
+sudo iptables.sh start
 ```
 
 ## 关闭全局代理
 ```
-iptables.sh stop
+sudo iptables.sh stop
 ```
