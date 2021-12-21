@@ -1,6 +1,6 @@
 # install and config redsocks2
 ```
-git clone https://github.com/shLuckyCode/install_redsocks2.git
+git clone https://github.com/shLuckyCode/intstall_redsocks2.git
 cd ./install_redsocks2
 sudo bash ./setup.sh
 ```
