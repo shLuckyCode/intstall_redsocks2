@@ -16,12 +16,11 @@ else
         echo "stoping the Iptables redirect script ..."
         sudo ufw disable
         sudo iptables -t nat -F
-        sudo iptables -F
-        sudo iptables -X
-        sudo ip6tables -F
-        sudo ip6tables -X
+        #sudo iptables -F
+        #sudo iptables -X
+        #sudo ip6tables -F
+        #sudo ip6tables -X
         sudo ufw enable
-
     fi
 
     if [ "$1" == "start" ]; then
