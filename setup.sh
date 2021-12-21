@@ -39,7 +39,7 @@ create_service(){
 	sudo systemctl enable redsocks2
 }
 
-mk_folder
+#mk_folder
 intstall_redsocks2
 create_service
 read -p "input your socks5 proxy{example: 192.168.10.1:10808}:" proxy_server
